@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="../static/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}" rel="stylesheet" media="screen" />
+</head>
+
+<body>
+
+    <div th:fragment="body">
+        <div class="jumbotron">
+            <div class="row text-center">
+                <div class="">
+                    <h2>Exercício de java com spring boot</h2>
+                    <h3>Bem vindo!</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <img src="../../static/images/aluno.png" width="200" th:src="@{/images/aluno.png}" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
