@@ -16,7 +16,7 @@ Esse projeto é baseado em [Spring Boot](https://start.spring.io/) usando esses 
 O projeto é criado com Maven então é necessario tê-lo na máquina, sendo assim, apenas importe o projeto para sua IDE.
 
 ## Configuração do database
-Crie um database MySQL com o nome 'cadastros' e acicione as credentials em '/resources/application.properties'.  
+Crie um database MySQL com o nome 'cadastros' e adicione as credentials em '/resources/application.properties'.  
 
 Configuração default:
 
@@ -35,5 +35,6 @@ ou
 
 Por command line:
 ```
+mvn clean install package
 mvn spring-boot:run
 ```
