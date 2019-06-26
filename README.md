@@ -1,6 +1,6 @@
-# springboot-crud-example
+# springboot-crud-aluno
 
-Spring Boot CRUD example é uma demonstração de como implementar as simples operações de um CRUD com a entidade `Aluno`.
+Este projeto é uma demonstração de como implementar as simples operações de um CRUD com a entidade `Aluno`.
 
 ## O que tem?
 Esse projeto é baseado em [Spring Boot](https://start.spring.io/) usando esses packages :
@@ -10,7 +10,7 @@ Esse projeto é baseado em [Spring Boot](https://start.spring.io/) usando esses 
 - Spring MVC (Tomcat)
 - [Thymleaf](https://thymeleaf.org)
 
-![demo]()
+![demo](https://i.imgur.com/IheoWZIg.png)
 
 ## Instalação 
 O projeto é criado com Maven então é necessario tê-lo na máquina, sendo assim, apenas importe o projeto para sua IDE.
